@@ -1,6 +1,6 @@
 #' SDM A1: Credit Rating
 
-setwd("C:/Users/abhatt/Desktop/SDM/Data")
+setwd("C:/Users/Venu/Desktop/SDM/Data")
 library(readxl)
 df <- read_excel("CreditRating.xlsx", sheet="Data")
 str(df)
